@@ -1,0 +1,25 @@
+{
+  "name": "musikus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "",
+    "run": "node ."
+  },
+  "keywords": [],
+  "author": "N3ls0n",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.1.0",
+    "@discordjs/voice": "^0.11.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.10",
+    "discord-player": "^5.3.1",
+    "discord.js": "^14.4.0",
+    "dotenv": "^16.0.2",
+    "ffmpeg-static": "^5.1.0",
+    "lyrics-finder": "^21.7.0"
+  }
+}
