@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . ./
 
-ENV TOKEN=MTAyMjUzOTM4MDc2MzY3Njc1Mg.G1MVPy.rkh8SwZ2mta2aE8fLQrZBfKDDunXO3rxCy3tLw
+ENV TOKEN=
 
 CMD ["node", "/src/index.js"]
