@@ -1,8 +1,13 @@
-FROM node:19
+FROM node:alpine
 
-ADD . /src/
+WORKDIR /src/
 
-RUN cd /src/
-RUN npm install --production
+COPY package*.json ./
+
+RUN npm install 
+
+COPY . ./
+
+ENV TOKEN=MTAyMjUzOTM4MDc2MzY3Njc1Mg.G1MVPy.rkh8SwZ2mta2aE8fLQrZBfKDDunXO3rxCy3tLw
 
 CMD ["node", "/src/index.js"]
