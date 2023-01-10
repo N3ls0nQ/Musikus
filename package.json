@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "",
-    "run": "node ."
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "N3ls0n",
